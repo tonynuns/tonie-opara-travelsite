@@ -12,14 +12,14 @@
     <header class="header">
         <div class="header__container">
             <div class="header__title-wrapper">
-                <h2 class="header__title">Travel Site</h2>
+                <h2 class="header__title"><a class="header__title-link" href="./index.html">Travel Site</a></h2>
             </div>
             <nav class="header__nav">
-                <ul class="header__list">
-                    <li class="header__list-item"><a class="header__list-link header__list-link--home" href="">Home</a></li>
-                    <li class="header__list-item"><a class="header__list-link header__list-link--hawaii" href="">Hawaii</a></li>
-                    <li class="header__list-item"><a class="header__list-link header__list-link--iceland" href="">Iceland</a></li>
-                    <li class="header__list-item"><a class="header__list-link header__list-link--greece" href="">Greece</a></li>
+                <ul class="list list--header">
+                    <li class="list__item list__item--header"><a class="list__link list__link--header list__link--header-active" href="./index.html">Home</a></li>
+                    <li class="list__item list__item--header"><a class="list__link list__link--header" href="./pages/hawaii.html">Hawaii</a></li>
+                    <li class="list__item list__item--header"><a class="list__link list__link--header" href="./pages/iceland.html">Iceland</a></li>
+                    <li class="list__item list__item--header"><a class="list__link list__link--header" href="./pages/greece.html">Greece</a></li>
                 </ul>
             </nav>
         </div>
@@ -30,7 +30,7 @@
                 <div class="hero__text-wrapper">
                     <h1 class="hero__heading">Travelling Comes With Endless Discoveries</h1>
                     <p class="hero__text">Don't let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
-                    <a class="hero__btn" href="">Get started</a>
+                    <a class="btn btn--hero" href="">Get started</a>
                 </div>
                 <div class="hero__img-wrapper">
                     <img class="hero__img" src="./assets/images/hero.png" alt="hero image">
@@ -40,57 +40,63 @@
         <section class="recommendations">
             <div class="recommendations__container">
                 <h1 class="recommendations__heading">Recommendations</h1>
-                <div class="recommendations__cards-container">
-                    <div class="recommendations__card">
-                        <a href=""><img class="recommendations__card-img" src="./assets/images/hawaii.jpg" alt="Hawaii"></a>
-                        <p class="recommendations__card-text">Hawaii</p>
-                    </div>
-                    <div class="recommendations__card">
-                        <a href=""><img class="recommendations__card-img" src="./assets/images/iceland.jpg" alt="Iceland"></a>
-                        <p class="recommendations__card-text">Iceland</p>
-                    </div>
-                    <div class="recommendations__card">
-                        <a href=""><img class="recommendations__card-img" src="./assets/images/greece.jpg" alt="Greece"></a>
-                        <p class="recommendations__card-text">Greece</p>
-                    </div>
+                <div class="cards-container cards-container--recommendations">
+                    <figure class="card card--recommendations">
+                        <a href="./pages/hawaii.html">
+                            <img class="recommendations__card-img" src="./assets/images/hawaii.jpg" alt="Hawaii">
+                            <p class="recommendations__card-text">Hawaii</p>
+                        </a>
+                    </figure>
+                    <figure class="card card--recommendations">
+                        <a href="./pages/iceland.html">
+                            <img class="recommendations__card-img" src="./assets/images/iceland.jpg" alt="Iceland">
+                            <p class="recommendations__card-text">Iceland</p>
+                        </a>
+                    </figure>
+                    <figure class="card card--recommendations">
+                        <a href="./pages/greece.html">
+                            <img class="recommendations__card-img" src="./assets/images/greece.jpg" alt="Greece">
+                            <p class="recommendations__card-text">Greece</p>
+                        </a>
+                    </figure>
                 </div>
             </div>
         </section>
     </main>
     <footer class="footer">
         <div class="footer__container">
-            <div class="footer__info-wrapper">
-                <h2 class="footer__info-heading">Contact</h2>
+            <article class="footer__info-wrapper">
+                <h2 class="footer__info-title">Contact</h2>
                 <div class="footer__info-text-wrapper">
-                    <p class="footer__info-title">EMAIL</p>
+                    <p class="footer__info-sub-title">EMAIL</p>
                     <p class="footer__info-text">info@travelsite.com</p>
                 </div>
-            </div>
-            <div class="footer__info-wrapper">
-                <h2 class="footer__info-heading">Hours</h2>
+            </article>
+            <article class="footer__info-wrapper">
+                <h2 class="footer__info-title">Hours</h2>
                 <div class="footer__info-hour-wrapper">
                     <div class="footer__info-text-wrapper">
-                        <p class="footer__info-title">MONDAY - FRIDAY</p>
+                        <p class="footer__info-sub-title">MONDAY - FRIDAY</p>
                         <p class="footer__info-text">9:00 AM - 5:00 PM</p>
                     </div>
                     <div class="footer__info-text-wrapper">
-                        <p class="footer__info-title">SATURDAY</p>
+                        <p class="footer__info-sub-title">SATURDAY</p>
                         <p class="footer__info-text">10:00 AM - 4:00 PM</p>
                     </div>
                     <div class="footer__info-text-wrapper">
-                        <p class="footer__info-title">SUNDAY</p>
+                        <p class="footer__info-sub-title">SUNDAY</p>
                         <p class="footer__info-text">Closed</p>
                     </div>
                 </div>
-            </div>
-            <div class="footer__info-wrapper">
-                <h2 class="footer__info-heading">Social</h2>
+            </article>
+            <article class="footer__info-wrapper">
+                <h2 class="footer__info-title">Social</h2>
                 <div class="footer__info-logo-wrapper">
                     <img class="footer__info-logo" src="./assets/images/icon-instagram.png" alt="Instagram">
                     <img class="footer__info-logo" src="./assets/images/icon-facebook.png" alt="Instagram">
                     <img class="footer__info-logo" src="./assets/images/icon-twitter.png" alt="Instagram">
                 </div>
-            </div>
+            </article>
         </div>
     </footer>
 </body>

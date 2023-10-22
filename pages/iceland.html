@@ -4,11 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/destinations.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/destinations.css">
     <title>Travel Site - Iceland</title>
 </head>
 <body>
-
+    <header class="header">
+        <div class="header__container">
+            <div class="header__title-wrapper">
+                <h2 class="header__title"><a class="header__title-link" href="../index.html">Travel Site</a></h2>
+            </div>
+            <nav class="header__nav">
+                <ul class="list list--header">
+                    <li class="list__item list__item--header"><a class="list__link list__link--header" href="../index.html">Home</a></li>
+                    <li class="list__item list__item--header"><a class="list__link list__link--header" href="../pages/hawaii.html">Hawaii</a></li>
+                    <li class="list__item list__item--header"><a class="list__link list__link--header list__link--header-active" href="../pages/iceland.html">Iceland</a></li>
+                    <li class="list__item list__item--header"><a class="list__link list__link--header" href="../pages/greece.html">Greece</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero-destination hero-destination--iceland">
+            <div class="hero-destination__container">
+                <h1 class="hero-destination__heading">Iceland</h1>
+                <div class="cards-container cards-container--hero-destination">
+                    <article class="card card--hero-destination">
+                        <h2 class="hero-destination__card-title">Friday</h2>
+                        <ul class="list list--destination">
+                            <li class="list__item list__item--destination-activity">Breakfast</li>
+                            <li class="list__item list__item--destination-activity">Lunch</li>
+                            <li class="list__item list__item--destination-activity">Dinner</li>
+                            <li class="list__item list__item--destination-activity">Hiking</li>
+                        </ul>
+                    </article>
+                    <article class="card card--hero-destination">
+                        <h2 class="hero-destination__card-title">Saturday</h2>
+                        <ul class="list list--destination">
+                            <li class="list__item list__item--destination-activity">Breakfast</li>
+                            <li class="list__item list__item--destination-activity">Lunch</li>
+                            <li class="list__item list__item--destination-activity">Dinner</li>
+                            <li class="list__item list__item--destination-activity">Hiking</li>
+                        </ul>
+                    </article>
+                    <article class="card card--hero-destination">
+                        <h2 class="hero-destination__card-title">Sunday</h2>
+                        <ul class="list list--destination">
+                            <li class="list__item list__item--destination-activity">Breakfast</li>
+                            <li class="list__item list__item--destination-activity">Lunch</li>
+                            <li class="list__item list__item--destination-activity">Dinner</li>
+                            <li class="list__item list__item--destination-activity">Hiking</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <article class="footer__info-wrapper">
+                <h2 class="footer__info-title">Contact</h2>
+                <div class="footer__info-text-wrapper">
+                    <p class="footer__info-sub-title">EMAIL</p>
+                    <p class="footer__info-text">info@travelsite.com</p>
+                </div>
+            </article>
+            <article class="footer__info-wrapper">
+                <h2 class="footer__info-title">Hours</h2>
+                <div class="footer__info-hour-wrapper">
+                    <div class="footer__info-text-wrapper">
+                        <p class="footer__info-sub-title">MONDAY - FRIDAY</p>
+                        <p class="footer__info-text">9:00 AM - 5:00 PM</p>
+                    </div>
+                    <div class="footer__info-text-wrapper">
+                        <p class="footer__info-sub-title">SATURDAY</p>
+                        <p class="footer__info-text">10:00 AM - 4:00 PM</p>
+                    </div>
+                    <div class="footer__info-text-wrapper">
+                        <p class="footer__info-sub-title">SUNDAY</p>
+                        <p class="footer__info-text">Closed</p>
+                    </div>
+                </div>
+            </article>
+            <article class="footer__info-wrapper">
+                <h2 class="footer__info-title">Social</h2>
+                <div class="footer__info-logo-wrapper">
+                    <img class="footer__info-logo" src="../assets/images/icon-instagram.png" alt="Instagram">
+                    <img class="footer__info-logo" src="../assets/images/icon-facebook.png" alt="Instagram">
+                    <img class="footer__info-logo" src="../assets/images/icon-twitter.png" alt="Instagram">
+                </div>
+            </article>
+        </div>
+    </footer>
 </body>
 </html>
