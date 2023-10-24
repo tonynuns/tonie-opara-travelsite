@@ -80,11 +80,11 @@ body {
 .footer__info-text {
     font-size: 1.8rem;
 }
-.footer__info-logo-wrapper {
+.footer__logo-wrapper {
     display: flex;
     gap: 3rem;
 }
-.footer__info-logo {
+.footer__logo {
     height: 3rem;
 }
 .btn {
@@ -102,4 +102,9 @@ body {
 .card {
     width: 30%;
     border-radius: 0.5rem;
+}
+
+/* Diving Deeper Code */
+.list__link--header:hover {
+    text-decoration: underline;
 }

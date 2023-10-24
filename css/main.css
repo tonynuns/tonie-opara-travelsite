@@ -62,3 +62,7 @@
     font-size: 2rem;
     font-weight: bold;
 }
+/* Diving Deeper Code */
+.card--recommendations:hover {
+    border: 0.3rem solid rgba(255, 0, 0, 0.2);
+}
