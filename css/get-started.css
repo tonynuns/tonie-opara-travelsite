@@ -1,6 +1,3 @@
-/* div {
-    border: 1px solid red;
-} */
 .form {
     background-color: #F6F6F6;
     padding: 5.5em 0;
@@ -23,6 +20,7 @@
     justify-content: space-between;
     padding-top: 0.4em;
 }
+
 .form__label-input-pair-wrapper {
     display: flex;
     justify-content: space-between;
@@ -51,12 +49,15 @@
 .form__input--wide-field {
     width: 100%;
 }
-.form__submit {
-    font-size: 2.5rem;
+.form__btn {
+    font-size: 2rem;
     margin-top: 2em;
-    padding: 0.5em 1.5em;
-    border-radius: 2em;
-    background-color: white;
+    padding: 0.7em 2.5em;
+    border-radius: 2rem;
+    border: none;
+    background-color: #DB7A4E;
+    color: #FFFFFF;
+    cursor: pointer;
 }
 .form__img-container {
     width: 50%;
