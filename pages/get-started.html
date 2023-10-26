@@ -1,147 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Site - Get Started</title>
-    <link rel="stylesheet" href="../css/global.css">
-    <link rel="stylesheet" href="../css/get-started.css">
-</head>
-<body>
-    <header class="header">
-        <div class="header__container">
-            <div class="header__title-wrapper">
-                <h2 class="header__title"><a class="header__title-link" href="../index.html">Travel Site</a></h2>
-            </div>
-            <nav class="header__nav">
-                <ul class="list list--header">
-                    <li class="list__item list__item--header"><a class="list__link list__link--header" href="../index.html">Home</a></li>
-                    <li class="list__item list__item--header"><a class="list__link list__link--header" href="../pages/hawaii.html">Hawaii</a></li>
-                    <li class="list__item list__item--header"><a class="list__link list__link--header" href="../pages/iceland.html">Iceland</a></li>
-                    <li class="list__item list__item--header"><a class="list__link list__link--header" href="../pages/greece.html">Greece</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <form class="form">
-        <div class="form__container">
-            <div class="form__text-container">
-                <h1 class="form__heading">Get Started - Book Your Destinations Here</h1>
-                <p class="form__label">Destination</p>
-                <div class="form__label-radio-group-wrapper">
-                    <div class="form__label-radio-wrapper">
-                        <label class="form__label form__label--option" for="hawaii">Hawaii</label>
-                        <input class="form__radio" type="radio" name="destination" id="hawaii" value="hawaii" required>
-                    </div>
-                    <div class="form__label-radio-wrapper">
-                        <label class="form__label form__label--option" for="iceland">Iceland</label>
-                        <input class="form__radio" type="radio" name="destination" id="iceland" value="iceland">
-                    </div>
-                    <div class="form__label-radio-wrapper">
-                        <label class="form__label form__label--option" for="greece">Greece</label>
-                        <input class="form__radio" type="radio" name="destination" id="greece" value="greece">
-                    </div>
-                </div>
-                <div class="form__label-input-pair-wrapper">
-                    <div class="form__label-input-wrapper">
-                        <label class="form__label" for="arrival">Arrival Date</label>
-                        <input class="form__input" type="date" name="arrival" id="arrival" required>
-                    </div>
-                    <div class="form__label-input-wrapper">
-                        <label class="form__label" for="departure">Departure Date</label>
-                        <input class="form__input" type="date" name="departure" id="departure" required>
-                    </div>
-                </div>
-                <div class="form__label-input-pair-wrapper">
-                    <div class="form__label-input-wrapper">
-                        <label class="form__label" for="first-name">First Name</label>
-                        <input class="form__input" type="text" name="first-name" id="first-name" required>
-                    </div>
-                    <div class="form__label-input-wrapper">
-                        <label class="form__label" for="last-name">Last Name</label>
-                        <input class="form__input" type="text" name="last-name" id="last-name" required>
-                    </div>
-                </div>
-                <div class="form__label-input-pair-wrapper">
-                    <div class="form__label-input-wrapper">
-                        <label class="form__label" for="email">Email</label>
-                        <input class="form__input" type="email" name="email" id="email" required>
-                    </div>
-                    <div class="form__label-input-wrapper">
-                        <label class="form__label" for="phone-number">Phone Number</label>
-                        <input class="form__input" type="tel" maxlength="10" name="phone-number" id="phone-number" required>
-                    </div>
-                </div>
-                <div class="form__label-input-wrapper">
-                    <label class="form__label" for="address">Address</label>
-                    <input class="form__input form__input--wide-field" type="text" name="address" id="address" required>
-                </div>
-                <div class="form__label-input-pair-wrapper">
-                    <div class="form__label-input-wrapper">
-                        <label class="form__label" for="city">City</label>
-                        <input class="form__input" type="text" name="city" id="city" required>
-                    </div>
-                    <div class="form__label-input-wrapper">
-                        <label class="form__label" for="province">Province</label>
-                        <input class="form__input" type="text" name="province" id="province" required>
-                    </div>
-                </div>
-                <div class="form__label-input-pair-wrapper">
-                    <div class="form__label-input-wrapper">
-                        <label class="form__label" for="postal-code">Postal Code</label>
-                        <input class="form__input" type="text" name="postal-code" id="postal-code" required>
-                    </div>
-                    <div class="form__label-input-wrapper">
-                        <label class="form__label" for="country">Country</label>
-                        <input class="form__input" type="text" name="country" id="country" required>
-                    </div>
-                </div>
-                <div class="form__label-input-wrapper">
-                    <label class="form__label" for="special">Special Request (if any)</label>
-                    <textarea class="form__input form__input--wide-field" name="special" id="special" rows="5"></textarea>
-                </div>
-                <button class="form__btn" type="submit">Submit</button>
-            </div>
-            <div class="form__img-container">
-                <img class="form__img" src="../assets/images/hero.png">
-            </div>
-        </div>
-    </form>
-    <footer class="footer">
-        <div class="footer__container">
-            <article class="footer__info-wrapper">
-                <h2 class="footer__info-title">Contact</h2>
-                <div class="footer__info-text-wrapper">
-                    <p class="footer__info-sub-title">EMAIL</p>
-                    <p class="footer__info-text">info@travelsite.com</p>
-                </div>
-            </article>
-            <article class="footer__info-wrapper">
-                <h2 class="footer__info-title">Hours</h2>
-                <div class="footer__info-hour-wrapper">
-                    <div class="footer__info-text-wrapper">
-                        <p class="footer__info-sub-title">MONDAY - FRIDAY</p>
-                        <p class="footer__info-text">9:00 AM - 5:00 PM</p>
-                    </div>
-                    <div class="footer__info-text-wrapper">
-                        <p class="footer__info-sub-title">SATURDAY</p>
-                        <p class="footer__info-text">10:00 AM - 4:00 PM</p>
-                    </div>
-                    <div class="footer__info-text-wrapper">
-                        <p class="footer__info-sub-title">SUNDAY</p>
-                        <p class="footer__info-text">Closed</p>
-                    </div>
-                </div>
-            </article>
-            <article class="footer__info-wrapper">
-                <h2 class="footer__info-title">Social</h2>
-                <div class="footer__logo-wrapper">
-                    <a class="footer__logo-link" href="https://www.instagram.com"><img class="footer__logo" src="../assets/images/icon-instagram.png" alt="Instagram"></a>
-                    <a class="footer__logo-link" href="https://www.facebook.com"><img class="footer__logo" src="../assets/images/icon-facebook.png" alt="Facebook"></a>
-                    <a class="footer__logo-link" href="https://twitter.com/"><img class="footer__logo" src="../assets/images/icon-twitter.png" alt="Twitter"></a>
-                </div>
-            </article>
-        </div>
-    </footer>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Travel Site - Get Started</title>
+		<link rel="stylesheet" href="../css/global.css" />
+		<link rel="stylesheet" href="../css/get-started.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__container">
+				<div class="header__title-wrapper">
+					<h2 class="header__title">
+						<a class="header__title-link" href="../index.html">Travel Site</a>
+					</h2>
+				</div>
+				<nav class="header__nav">
+					<ul class="list list--header">
+						<li class="list__item list__item--header">
+							<a class="list__link list__link--header" href="../index.html"
+								>Home</a
+							>
+						</li>
+						<li class="list__item list__item--header">
+							<a
+								class="list__link list__link--header"
+								href="../pages/hawaii.html"
+								>Hawaii</a
+							>
+						</li>
+						<li class="list__item list__item--header">
+							<a
+								class="list__link list__link--header"
+								href="../pages/iceland.html"
+								>Iceland</a
+							>
+						</li>
+						<li class="list__item list__item--header">
+							<a
+								class="list__link list__link--header"
+								href="../pages/greece.html"
+								>Greece</a
+							>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<form class="form">
+			<div class="form__container">
+				<div class="form__text-container">
+					<h1 class="form__heading">
+						Get Started - Book Your Destinations Here
+					</h1>
+					<p class="form__label">Destination</p>
+					<div class="form__label-radio-group-wrapper">
+						<div class="form__label-radio-wrapper">
+							<label class="form__label form__label--option" for="hawaii"
+								>Hawaii</label
+							>
+							<input
+								class="form__radio"
+								type="radio"
+								name="destination"
+								id="hawaii"
+								value="hawaii"
+								required />
+						</div>
+						<div class="form__label-radio-wrapper">
+							<label class="form__label form__label--option" for="iceland"
+								>Iceland</label
+							>
+							<input
+								class="form__radio"
+								type="radio"
+								name="destination"
+								id="iceland"
+								value="iceland" />
+						</div>
+						<div class="form__label-radio-wrapper">
+							<label class="form__label form__label--option" for="greece"
+								>Greece</label
+							>
+							<input
+								class="form__radio"
+								type="radio"
+								name="destination"
+								id="greece"
+								value="greece" />
+						</div>
+					</div>
+					<div class="form__label-input-pair-wrapper">
+						<div class="form__label-input-wrapper">
+							<label class="form__label" for="arrival">Arrival Date</label>
+							<input
+								class="form__input"
+								type="date"
+								name="arrival"
+								id="arrival"
+								required />
+						</div>
+						<div class="form__label-input-wrapper">
+							<label class="form__label" for="departure">Departure Date</label>
+							<input
+								class="form__input"
+								type="date"
+								name="departure"
+								id="departure"
+								required />
+						</div>
+					</div>
+					<div class="form__label-input-pair-wrapper">
+						<div class="form__label-input-wrapper">
+							<label class="form__label" for="first-name">First Name</label>
+							<input
+								class="form__input"
+								type="text"
+								name="first-name"
+								id="first-name"
+								required />
+						</div>
+						<div class="form__label-input-wrapper">
+							<label class="form__label" for="last-name">Last Name</label>
+							<input
+								class="form__input"
+								type="text"
+								name="last-name"
+								id="last-name"
+								required />
+						</div>
+					</div>
+					<div class="form__label-input-pair-wrapper">
+						<div class="form__label-input-wrapper">
+							<label class="form__label" for="email">Email</label>
+							<input
+								class="form__input"
+								type="email"
+								name="email"
+								id="email"
+								required />
+						</div>
+						<div class="form__label-input-wrapper">
+							<label class="form__label" for="phone-number">Phone Number</label>
+							<input
+								class="form__input"
+								type="tel"
+								maxlength="10"
+								name="phone-number"
+								id="phone-number"
+								required />
+						</div>
+					</div>
+					<div class="form__label-input-wrapper">
+						<label class="form__label" for="address">Address</label>
+						<input
+							class="form__input form__input--wide-field"
+							type="text"
+							name="address"
+							id="address"
+							required />
+					</div>
+					<div class="form__label-input-pair-wrapper">
+						<div class="form__label-input-wrapper">
+							<label class="form__label" for="city">City</label>
+							<input
+								class="form__input"
+								type="text"
+								name="city"
+								id="city"
+								required />
+						</div>
+						<div class="form__label-input-wrapper">
+							<label class="form__label" for="province">Province</label>
+							<input
+								class="form__input"
+								type="text"
+								name="province"
+								id="province"
+								required />
+						</div>
+					</div>
+					<div class="form__label-input-pair-wrapper">
+						<div class="form__label-input-wrapper">
+							<label class="form__label" for="postal-code">Postal Code</label>
+							<input
+								class="form__input"
+								type="text"
+								name="postal-code"
+								id="postal-code"
+								required />
+						</div>
+						<div class="form__label-input-wrapper">
+							<label class="form__label" for="country">Country</label>
+							<input
+								class="form__input"
+								type="text"
+								name="country"
+								id="country"
+								required />
+						</div>
+					</div>
+					<div class="form__label-input-wrapper">
+						<label class="form__label" for="special"
+							>Special Request (if any)</label
+						>
+						<textarea
+							class="form__input form__input--wide-field"
+							name="special"
+							id="special"
+							rows="5"></textarea>
+					</div>
+					<button class="form__btn" type="submit">Submit</button>
+				</div>
+				<div class="form__img-container">
+					<img class="form__img" src="../assets/images/hero.png" />
+				</div>
+			</div>
+		</form>
+		<footer class="footer">
+			<div class="footer__container">
+				<article class="footer__info-wrapper">
+					<h2 class="footer__info-title">Contact</h2>
+					<div class="footer__info-text-wrapper">
+						<p class="footer__info-sub-title">EMAIL</p>
+						<p class="footer__info-text">info@travelsite.com</p>
+					</div>
+				</article>
+				<article class="footer__info-wrapper">
+					<h2 class="footer__info-title">Hours</h2>
+					<div class="footer__info-hour-wrapper">
+						<div class="footer__info-text-wrapper">
+							<p class="footer__info-sub-title">MONDAY - FRIDAY</p>
+							<p class="footer__info-text">9:00 AM - 5:00 PM</p>
+						</div>
+						<div class="footer__info-text-wrapper">
+							<p class="footer__info-sub-title">SATURDAY</p>
+							<p class="footer__info-text">10:00 AM - 4:00 PM</p>
+						</div>
+						<div class="footer__info-text-wrapper">
+							<p class="footer__info-sub-title">SUNDAY</p>
+							<p class="footer__info-text">Closed</p>
+						</div>
+					</div>
+				</article>
+				<article class="footer__info-wrapper">
+					<h2 class="footer__info-title">Social</h2>
+					<div class="footer__logo-wrapper">
+						<a class="footer__logo-link" href="https://www.instagram.com"
+							><img
+								class="footer__logo"
+								src="../assets/images/icon-instagram.png"
+								alt="Instagram"
+						/></a>
+						<a class="footer__logo-link" href="https://www.facebook.com"
+							><img
+								class="footer__logo"
+								src="../assets/images/icon-facebook.png"
+								alt="Facebook"
+						/></a>
+						<a class="footer__logo-link" href="https://twitter.com/"
+							><img
+								class="footer__logo"
+								src="../assets/images/icon-twitter.png"
+								alt="Twitter"
+						/></a>
+					</div>
+				</article>
+			</div>
+		</footer>
+	</body>
 </html>
