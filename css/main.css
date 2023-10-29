@@ -40,21 +40,21 @@
 	font-size: 2.8rem;
 	margin-bottom: 1.3em;
 }
-.cards-container--recommendations {
+.cards-container--destination {
 	display: flex;
 	justify-content: space-between;
 }
-.card--recommendations {
+.card--destination {
 	border: 0.1rem solid rgba(0, 0, 0, 0.2);
 	box-shadow: 0rem 0.4rem 0.4rem rgba(0, 0, 0, 0.2);
 	position: relative;
 }
-.recommendations__card-img {
+.recommendations__destination-img {
 	width: 100%;
 	height: 100%;
 	border-radius: 0.5rem;
 }
-.recommendations__card-text {
+.recommendations__destination-text {
 	position: absolute;
 	bottom: 1.5rem;
 	right: 1.5rem;
@@ -63,6 +63,26 @@
 	font-weight: bold;
 }
 /* Diving Deeper Code */
-.card--recommendations:hover {
+.card--destination:hover {
 	border: 0.3rem solid rgba(255, 0, 0, 0.2);
+}
+@media (min-width: 768px) and (max-width: 1279px) {
+	.hero__heading {
+		font-size: 4rem;
+	}
+}
+@media (min-width: 320px) and (max-width: 767px) {
+	.hero__img-wrapper {
+		position: absolute;
+		display: none;
+	}
+	.hero__text-wrapper {
+		width: 100%;
+	}
+	.hero__heading {
+		font-size: 3rem;
+	}
+	.cards-container--destination {
+		flex-direction: column;
+	}
 }

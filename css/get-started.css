@@ -1,3 +1,4 @@
+/* Diving Deeper Code */
 .form {
 	background-color: #f6f6f6;
 	padding: 5.5em 0;
@@ -11,9 +12,7 @@
 	width: 90%;
 	margin: auto;
 	display: flex;
-}
-.form__text-container {
-	width: 50%;
+	justify-content: space-between;
 }
 .form__label-radio-group-wrapper {
 	display: flex;
@@ -66,4 +65,43 @@
 .form__img {
 	margin: auto 0 auto auto;
 	width: 90%;
+}
+@media (min-width: 768px) and (max-width: 1279px) {
+	.form__container {
+		flex-direction: column;
+	}
+	.form__text-container {
+		width: 95%;
+		max-width: 650px;
+	}
+	.form__img-container {
+		width: 100%;
+		margin-top: 5em;
+	}
+	.form__img {
+		max-width: 650px;
+		margin: auto;
+	}
+}
+@media (min-width: 320px) and (max-width: 767px) {
+	.form__text-container {
+		max-width: 600px;
+	}
+	.form__img-container {
+		display: none;
+	}
+	.form__label-radio-group-wrapper {
+		flex-wrap: wrap;
+		gap: 0.5rem;
+	}
+	.form__label-input-pair-wrapper {
+		flex-wrap: wrap;
+		gap: 1.1rem;
+	}
+	.form__input {
+		width: 28rem;
+	}
+	.form__heading {
+		font-size: 2.5rem;
+	}
 }

@@ -22,13 +22,13 @@
 	color: #fff;
 	padding-top: 0.3em;
 }
-.cards-container--hero-destination {
+.cards-container--destination-activity {
 	padding-top: 4em;
 	padding-bottom: 8em;
 	display: flex;
 	justify-content: space-between;
 }
-.card--hero-destination {
+.card--destination-activity {
 	background-color: #fff;
 	text-align: center;
 	color: black;
@@ -46,4 +46,14 @@
 	background-color: #fefaf5;
 	margin: 1em 0.7em;
 	padding: 0.8em 0em;
+}
+/* Diving Deeper Code */
+@media (min-width: 320px) and (max-width: 767px) {
+	.cards-container--destination-activity {
+		flex-direction: column;
+	}
+	.hero-destination__heading {
+		font-size: 6rem;
+		text-align: center;
+	}
 }
